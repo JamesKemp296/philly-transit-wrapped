@@ -21,8 +21,6 @@ export default function DownloadButton({
     if (!node) return;
     setBusy(true);
     try {
-      // Render twice: the first pass warms fonts/layout so the exported
-      // image is crisp and complete.
       await toPng(node, { pixelRatio: 3, cacheBust: true });
       const dataUrl = await toPng(node, { pixelRatio: 3, cacheBust: true });
       const link = document.createElement("a");
@@ -54,7 +52,7 @@ export default function DownloadButton({
         "&:hover": { bgcolor: "rgba(255,255,255,0.85)" },
       }}
     >
-      {busy ? "Saving…" : "Download image"}
+      {busy ? "Saving…" : "Save card"}
     </Button>
   );
 }

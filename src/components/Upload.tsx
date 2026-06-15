@@ -1,7 +1,7 @@
 import { useCallback, useRef, useState } from "react";
 import { Box, Button, Stack, Typography, Alert, CircularProgress } from "@mui/material";
 import { TbUpload, TbFileText } from "react-icons/tb";
-import { METRO_LINES } from "../lib/septa";
+import SeptaLogo from "./SeptaLogo";
 import { palette, radius } from "../theme";
 import { parseTripsCsv } from "../lib/parseCsv";
 import type { Trip } from "../lib/types";
@@ -20,7 +20,7 @@ export default function Upload({ onTrips }: UploadProps) {
     (text: string) => {
       const { trips, errors } = parseTripsCsv(text);
       if (trips.length === 0) {
-        setError(errors[0] ?? "Could not read this file.");
+        setError("Couldn't read that file.");
         return;
       }
       setError(null);
@@ -43,7 +43,7 @@ export default function Upload({ onTrips }: UploadProps) {
       };
       reader.onerror = () => {
         setLoading(false);
-        setError("Something went wrong reading that file. Try again.");
+        setError("That file didn't load. Try again.");
       };
       reader.readAsText(file);
     },
@@ -73,51 +73,18 @@ export default function Upload({ onTrips }: UploadProps) {
         alignItems: "center",
         justifyContent: "center",
         p: 2,
-        background:
-          "radial-gradient(120% 120% at 50% 0%, #1d1d1d 0%, #0a0a0a 60%)",
+        background: palette.ink,
       }}
     >
       <Stack spacing={3} sx={{ width: "100%", maxWidth: 520 }} alignItems="center">
-        <Stack spacing={1.5} alignItems="center">
-          <Stack direction="row" spacing={0.5} sx={{ borderRadius: 1, overflow: "hidden" }}>
-            {Object.values(METRO_LINES).map((line) => (
-              <Box
-                key={line.id}
-                sx={{
-                  width: 36,
-                  height: 36,
-                  bgcolor: line.color,
-                  color: line.textColor,
-                  display: "grid",
-                  placeItems: "center",
-                  fontWeight: 900,
-                  fontSize: 20,
-                }}
-              >
-                {line.letter}
-              </Box>
-            ))}
-          </Stack>
-          <Typography
-            sx={{
-              color: "rgba(255,255,255,0.55)",
-              fontSize: 11,
-              fontWeight: 800,
-              letterSpacing: "0.16em",
-              textTransform: "uppercase",
-            }}
-          >
-            SEPTA Metro
-          </Typography>
-        </Stack>
+        <SeptaLogo height={36} />
 
         <Stack spacing={1} alignItems="center" textAlign="center">
           <Typography variant="h3" sx={{ color: palette.white, fontSize: { xs: 34, sm: 44 } }}>
             SEPTA Wrapped
           </Typography>
-          <Typography sx={{ color: "rgba(255,255,255,0.7)", maxWidth: 420 }}>
-            Upload your SEPTA Key trip history and get a shareable recap of your
-            year of riding. Everything stays in your browser.
+          <Typography sx={{ color: "rgba(255,255,255,0.65)", maxWidth: 380, fontSize: 15 }}>
+            Trip history CSV from SEPTA Key.
           </Typography>
         </Stack>
 
@@ -163,11 +130,11 @@ export default function Upload({ onTrips }: UploadProps) {
             ) : (
               <TbUpload size={36} color={palette.white} />
             )}
-            <Typography sx={{ color: palette.white, fontWeight: 700 }}>
-              Drag &amp; drop your CSV here
+            <Typography sx={{ color: palette.white, fontWeight: 600 }}>
+              Drop CSV here
             </Typography>
-            <Typography sx={{ color: "rgba(255,255,255,0.55)", fontSize: 14 }}>
-              or click to browse
+            <Typography sx={{ color: "rgba(255,255,255,0.5)", fontSize: 14 }}>
+              or click to choose a file
             </Typography>
           </Stack>
         </Box>
@@ -178,7 +145,7 @@ export default function Upload({ onTrips }: UploadProps) {
           onClick={loadSample}
           sx={{ color: palette.yellow }}
         >
-          Try it with sample data
+          Try sample data
         </Button>
 
         {error && (
@@ -187,9 +154,8 @@ export default function Upload({ onTrips }: UploadProps) {
           </Alert>
         )}
 
-        <Typography sx={{ color: "rgba(255,255,255,0.4)", fontSize: 12, textAlign: "center" }}>
-          No account, no upload to any server. Your file is read locally and
-          cached only in your browser.
+        <Typography sx={{ color: "rgba(255,255,255,0.35)", fontSize: 12, textAlign: "center" }}>
+          Nothing leaves this device.
         </Typography>
       </Stack>
     </Box>

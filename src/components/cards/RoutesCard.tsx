@@ -21,15 +21,13 @@ const RoutesCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
       <CardCanvas ref={ref} background={palette.ink}>
         <Typography
           sx={{
-            fontSize: 13,
-            fontWeight: 800,
-            letterSpacing: "0.12em",
-            textTransform: "uppercase",
-            opacity: 0.6,
+            fontSize: 14,
+            fontWeight: 700,
+            opacity: 0.55,
             mb: 1,
           }}
         >
-          Your go-to lines
+          Lines
         </Typography>
 
         <Box
@@ -43,7 +41,7 @@ const RoutesCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
           <Box sx={{ bgcolor: palette.red, color: palette.white, borderRadius: radius.md, p: pad.tile }}>
             <Stack direction="row" justifyContent="space-between" alignItems="center">
               <Typography sx={{ fontSize: 11, fontWeight: 900, letterSpacing: "0.1em", textTransform: "uppercase" }}>
-                Top Bus Route
+                Top bus
               </Typography>
               <TbBus size={20} />
             </Stack>
@@ -51,14 +49,14 @@ const RoutesCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
               {stats.topBusRoute ? stats.topBusRoute.label.replace("Route ", "") : "—"}
             </Typography>
             <Typography sx={{ fontWeight: 800, fontSize: 12, opacity: 0.9 }}>
-              {stats.topBusRoute ? `${stats.topBusRoute.count} trips` : "no bus trips"}
+              {stats.topBusRoute ? `${stats.topBusRoute.count} trips` : "—"}
             </Typography>
           </Box>
 
           <Box sx={{ bgcolor: railBg, color: railFg, borderRadius: radius.md, p: pad.tile }}>
             <Stack direction="row" justifyContent="space-between" alignItems="center">
               <Typography sx={{ fontSize: 11, fontWeight: 900, letterSpacing: "0.1em", textTransform: "uppercase" }}>
-                Top Rail Line
+                Top rail
               </Typography>
               <TbTrain size={20} />
             </Stack>
@@ -75,15 +73,15 @@ const RoutesCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
               </Typography>
             )}
             <Typography sx={{ fontWeight: 800, fontSize: 12, opacity: 0.9, mt: 0.5 }}>
-              {stats.topRailLine ? `${stats.topRailLine.count} trips` : "no rail trips"}
+              {stats.topRailLine ? `${stats.topRailLine.count} trips` : "—"}
             </Typography>
           </Box>
         </Box>
 
         <Stack direction="row" alignItems="center" spacing={1} sx={{ mb: 1 }}>
           <TbRoute size={18} />
-          <Typography sx={{ fontSize: 12, fontWeight: 900, letterSpacing: "0.1em", textTransform: "uppercase", opacity: 0.85 }}>
-            How you got around
+          <Typography sx={{ fontSize: 14, fontWeight: 700, opacity: 0.75 }}>
+            By mode
           </Typography>
         </Stack>
 

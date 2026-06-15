@@ -23,7 +23,6 @@ export const palette = {
   white: '#ffffff',
 }
 
-/** Shared layout tokens — slightly tighter corners, more breathing room inside tiles. */
 export const radius = {
   sm: 2.5,
   md: 3,
@@ -62,7 +61,7 @@ const theme = createTheme({
     MuiButton: {
       defaultProps: { disableElevation: true },
       styleOverrides: {
-        root: { borderRadius: 999, paddingInline: 22, paddingBlock: 10 },
+        root: { borderRadius: 10, paddingInline: 20, paddingBlock: 10 },
       },
     },
   },

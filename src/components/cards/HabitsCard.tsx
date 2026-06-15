@@ -15,15 +15,13 @@ const HabitsCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
       <CardCanvas ref={ref} background={palette.ink}>
         <Typography
           sx={{
-            fontSize: 13,
-            fontWeight: 800,
-            letterSpacing: "0.12em",
-            textTransform: "uppercase",
-            opacity: 0.6,
+            fontSize: 14,
+            fontWeight: 700,
+            opacity: 0.55,
             mb: 1,
           }}
         >
-          Your riding rhythm
+          When you ride
         </Typography>
 
         <Box sx={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 1.25, mb: 1.5 }}>
@@ -56,7 +54,7 @@ const HabitsCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
             </Typography>
           </Box>
           <StatBlock
-            label="Weekday Riding"
+            label="Weekdays"
             value={`${weekdayPct}%`}
             bg={palette.yellow}
             fg={palette.ink}
@@ -66,15 +64,13 @@ const HabitsCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
 
         <Typography
           sx={{
-            fontSize: 12,
-            fontWeight: 900,
-            letterSpacing: "0.1em",
-            textTransform: "uppercase",
-            opacity: 0.85,
+            fontSize: 14,
+            fontWeight: 700,
+            opacity: 0.75,
             mb: 1,
           }}
         >
-          Trips by day of week
+          By day
         </Typography>
 
         <Stack direction="row" alignItems="flex-end" spacing={0.75} sx={{ flex: 1, minHeight: 0 }}>
@@ -104,8 +100,7 @@ const HabitsCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
 
         {stats.mostActiveDay && (
           <Typography sx={{ fontWeight: 800, fontSize: 12, opacity: 0.7, mt: 1, textAlign: "center" }}>
-            Most in one day: {stats.mostActiveDay.count} trips on{" "}
-            {stats.mostActiveDay.label}
+            {stats.mostActiveDay.count} trips on {stats.mostActiveDay.label}
           </Typography>
         )}
       </CardCanvas>

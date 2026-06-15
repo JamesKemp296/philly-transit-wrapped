@@ -15,9 +15,7 @@ interface CardCanvasProps {
 }
 
 /**
- * The exportable card surface. The ref points at the node captured by
- * html-to-image, so nothing outside of this (e.g. the download button) is
- * included in the shared image.
+ * Exportable card surface. The ref is passed to html-to-image.
  */
 const CardCanvas = forwardRef<HTMLDivElement, CardCanvasProps>(
   ({ children, background = palette.ink, dark = true }, ref) => {
@@ -76,20 +74,6 @@ const CardCanvas = forwardRef<HTMLDivElement, CardCanvasProps>(
         >
           {children}
         </Box>
-
-        <Typography
-          sx={{
-            mt: 1.5,
-            fontSize: 11,
-            fontWeight: 700,
-            letterSpacing: '0.12em',
-            textTransform: 'uppercase',
-            opacity: 0.6,
-            textAlign: 'center',
-          }}
-        >
-          septa-wrapped
-        </Typography>
       </Box>
     )
   },
@@ -108,7 +92,7 @@ interface StatBlockProps {
   big?: boolean
 }
 
-/** A bold color-block stat tile, echoing the METRO Rewind grid look. */
+/** Color-block stat tile. */
 export function StatBlock({
   label,
   value,

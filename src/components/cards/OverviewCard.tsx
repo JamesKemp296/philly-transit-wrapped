@@ -6,7 +6,7 @@ import { palette, pad, radius } from "../../theme";
 import type { WrappedStats } from "../../lib/types";
 
 function dateRangeLabel(stats: WrappedStats): string {
-  if (!stats.firstTrip || !stats.lastTrip) return "Your transit recap";
+  if (!stats.firstTrip || !stats.lastTrip) return "Summary";
   const fmt = (d: Date) =>
     d.toLocaleDateString("en-US", { month: "short", year: "numeric" });
   const a = fmt(stats.firstTrip);
@@ -20,11 +20,9 @@ const OverviewCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
       <CardCanvas ref={ref} background={palette.ink}>
         <Typography
           sx={{
-            fontSize: 13,
-            fontWeight: 800,
-            letterSpacing: "0.12em",
-            textTransform: "uppercase",
-            opacity: 0.6,
+            fontSize: 14,
+            fontWeight: 700,
+            opacity: 0.55,
             mb: 1,
           }}
         >
@@ -49,7 +47,7 @@ const OverviewCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
                 textTransform: "uppercase",
               }}
             >
-              Trips Taken
+              Trips
             </Typography>
             <TbArrowsExchange size={22} />
           </Stack>
@@ -80,7 +78,7 @@ const OverviewCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
             icon={<TbBus size={20} />}
           />
           <StatBlock
-            label="Stops Visited"
+            label="Stops"
             value={stats.uniqueStops.toLocaleString()}
             bg={palette.green}
             fg={palette.white}

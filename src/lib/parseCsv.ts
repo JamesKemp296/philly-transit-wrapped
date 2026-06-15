@@ -43,9 +43,7 @@ export function parseTripsCsv(text: string): ParseResult {
   const missing = REQUIRED_COLUMNS.filter((c) => !fields.includes(c));
   if (missing.length > 0) {
     errors.push(
-      `This file is missing expected column(s): ${missing.join(
-        ", ",
-      )}. Make sure you uploaded a SEPTA Key trip history CSV.`,
+      `Missing columns: ${missing.join(", ")}. Use a SEPTA Key trip history export.`,
     );
     return { trips: [], errors };
   }
@@ -83,13 +81,9 @@ export function parseTripsCsv(text: string): ParseResult {
   }
 
   if (trips.length === 0) {
-    errors.push(
-      "We couldn't read any valid trips from this file. Double-check that it's an unedited SEPTA Key export.",
-    );
+    errors.push("No trips found in this file.");
   } else if (skipped > 0) {
-    errors.push(
-      `Skipped ${skipped} row(s) with an unreadable date; the rest were imported.`,
-    );
+    errors.push(`Skipped ${skipped} row(s) with bad dates.`);
   }
 
   return { trips, errors };

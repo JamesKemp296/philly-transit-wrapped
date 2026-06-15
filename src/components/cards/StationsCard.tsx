@@ -22,15 +22,13 @@ const StationsCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
       <CardCanvas ref={ref} background={palette.ink}>
         <Typography
           sx={{
-            fontSize: 13,
-            fontWeight: 800,
-            letterSpacing: "0.12em",
-            textTransform: "uppercase",
-            opacity: 0.6,
+            fontSize: 14,
+            fontWeight: 700,
+            opacity: 0.55,
             mb: 1,
           }}
         >
-          Where you tapped in
+          Tap-ins
         </Typography>
 
         <Box
@@ -51,7 +49,7 @@ const StationsCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
                 textTransform: "uppercase",
               }}
             >
-              Top Station
+              Top station
             </Typography>
             <TbMapPin size={22} />
           </Stack>
@@ -69,14 +67,12 @@ const StationsCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
           <TbBuildingBridge size={18} />
           <Typography
             sx={{
-              fontSize: 12,
-              fontWeight: 900,
-              letterSpacing: "0.1em",
-              textTransform: "uppercase",
-              opacity: 0.85,
+              fontSize: 14,
+              fontWeight: 700,
+              opacity: 0.75,
             }}
           >
-            Top 5 Stations
+            Top 5
           </Typography>
         </Stack>
 
@@ -129,12 +125,12 @@ const StationsCard = forwardRef<HTMLDivElement, { stats: WrappedStats }>(
               </Stack>
             ))}
           {!top && (
-            <Typography sx={{ opacity: 0.6 }}>No station data found.</Typography>
+            <Typography sx={{ opacity: 0.5 }}>—</Typography>
           )}
         </Stack>
 
         <Typography sx={{ fontWeight: 800, fontSize: 13, opacity: 0.7, mt: 1 }}>
-          {stats.uniqueStops.toLocaleString()} unique stops visited in all
+          {stats.uniqueStops.toLocaleString()} stops total
         </Typography>
       </CardCanvas>
     );

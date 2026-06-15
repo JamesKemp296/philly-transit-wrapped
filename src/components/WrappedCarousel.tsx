@@ -19,22 +19,22 @@ interface CardDef {
 const CARDS: CardDef[] = [
   {
     key: "overview",
-    filename: "septa-wrapped-overview.png",
+    filename: "septa-overview.png",
     render: (ref, stats) => <OverviewCard ref={ref} stats={stats} />,
   },
   {
     key: "stations",
-    filename: "septa-wrapped-stations.png",
+    filename: "septa-stations.png",
     render: (ref, stats) => <StationsCard ref={ref} stats={stats} />,
   },
   {
     key: "routes",
-    filename: "septa-wrapped-routes.png",
+    filename: "septa-routes.png",
     render: (ref, stats) => <RoutesCard ref={ref} stats={stats} />,
   },
   {
     key: "habits",
-    filename: "septa-wrapped-habits.png",
+    filename: "septa-habits.png",
     render: (ref, stats) => <HabitsCard ref={ref} stats={stats} />,
   },
 ];
@@ -71,7 +71,7 @@ export default function WrappedCarousel({ stats, warnings, onReset }: WrappedCar
     <Box
       sx={{
         minHeight: "100dvh",
-        background: "radial-gradient(120% 120% at 50% 0%, #1d1d1d 0%, #0a0a0a 60%)",
+        background: palette.ink,
         py: 4,
         px: 2,
         display: "flex",
@@ -88,7 +88,7 @@ export default function WrappedCarousel({ stats, warnings, onReset }: WrappedCar
           startIcon={<TbRefresh />}
           sx={{ color: "rgba(255,255,255,0.8)" }}
         >
-          Start over
+          Upload new file
         </Button>
       </Stack>
 
