@@ -1,0 +1,283 @@
+Entry Date,Entry Stop,Fare,Mode,Type,Route/Vehicle #
+"May 30, 2026 8:06 PM",15th St/City Hall,$0.00,Subway,Single Trip,L1/-
+"May 30, 2026 5:54 PM",Baltimore Av & 46th St,$0.00,Trolley,Single Trip,T2/9016
+"May 30, 2026 1:16 PM",15th St/City Hall,$0.00,Subway,Transfer,L1/-
+"May 30, 2026 12:42 PM",Snyder,$0.00,Subway,Single Trip,B1/-
+"May 30, 2026 10:04 AM",Broad St & Tasker St,$0.00,Bus,Single Trip,4/3572
+"May 29, 2026 9:10 AM",Broad St & Snyder Av,$0.00,Bus,Single Trip,999/8635
+"May 25, 2026 9:56 AM",Broad St & Dickinson St,$0.00,Bus,Single Trip,4/3586
+"May 24, 2026 1:11 PM",Broad St & Snyder Av - MBNS,$0.00,Bus,Single Trip,37/3532
+"May 23, 2026 12:42 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"May 23, 2026 9:37 AM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/3822
+"May 22, 2026 8:40 PM",Ellsworth-Federal,$0.00,Subway,Single Trip,B1/-
+"May 22, 2026 12:10 PM",Walnut-Locust,$0.00,Subway,Transfer,B1/-
+"May 22, 2026 11:01 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"May 22, 2026 9:06 AM",11th St & Chestnut St,$0.00,Bus,Transfer,45/3086
+"May 22, 2026 8:23 AM",Passyunk Av & 10th St,$0.00,Bus,Single Trip,45/3090
+"May 18, 2026 5:27 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"May 17, 2026 12:12 PM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/3312
+"May 16, 2026 10:44 PM",Market St & 11th St,$0.00,Bus,Single Trip,999/7474
+"May 16, 2026 5:39 PM",19th St & Wolf St,$0.00,Bus,Single Trip,17/7472
+"May 15, 2026 7:02 PM",Walnut-Locust,$0.00,Subway,Transfer,B1/-
+"May 15, 2026 5:31 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"May 15, 2026 8:40 AM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/3322
+"May 14, 2026 10:54 PM",Ellsworth-Federal,$0.00,Subway,Single Trip,B1/-
+"May 14, 2026 8:12 PM",Snyder,$0.00,Subway,Single Trip,B1/-
+"May 14, 2026 6:05 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"May 14, 2026 12:34 AM",JFK Blvd & 15th St,$0.00,Bus,Single Trip,999/7478
+"May 13, 2026 6:15 PM",19th St & Wolf St,$0.00,Bus,Single Trip,17/7473
+"May 13, 2026 1:39 PM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/3301
+"May 13, 2026 7:51 AM",Broad St & Mifflin St,$0.00,Bus,Single Trip,4/3310
+"May 12, 2026 6:20 PM",Passyunk Av & Dickinson St,$0.00,Bus,Single Trip,45/3086
+"May 9, 2026 6:42 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"May 9, 2026 2:15 PM",Broad-Girard,$0.00,Subway,Single Trip,B1/-
+"May 9, 2026 12:53 PM",15th St/City Hall,$0.00,Subway,Transfer,L1/-
+"May 9, 2026 11:50 AM",19th St & Wolf St,$0.00,Bus,Single Trip,17/7471
+"May 7, 2026 3:37 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"May 6, 2026 3:02 PM",Broad St & Tasker St,$0.00,Bus,Single Trip,4/3585
+"May 5, 2026 1:05 PM",11th St & Locust St,$0.00,Bus,Transfer,45/3092
+"May 5, 2026 12:00 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"May 4, 2026 8:53 AM",Broad St & S Penn Square,$0.00,Bus,Transfer,4/3562
+"May 4, 2026 7:35 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"May 3, 2026 4:48 PM",Snyder,$0.00,Subway,Single Trip,B1/-
+"May 3, 2026 6:00 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"May 2, 2026 3:12 PM",8th St & Lombard St,$0.00,Bus,Transfer,999/3240
+"May 2, 2026 1:58 PM",15th St/City Hall,$0.00,Subway,Single Trip,L1/-
+"May 2, 2026 10:31 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"May 1, 2026 5:13 PM",Broad St & Tasker St,$0.00,Bus,Single Trip,4/3591
+"May 1, 2026 4:55 PM",Walnut-Locust,$0.00,Subway,Transfer,B1/-
+"May 1, 2026 3:07 PM",Passyunk Av & Dickinson St,$0.00,Bus,Single Trip,2345/8438
+"May 1, 2026 7:45 AM",19th St & Moyamensing Av,$0.00,Bus,Single Trip,2/3387
+"Apr 29, 2026 5:28 PM",11th St & Arch St,$0.00,Bus,Single Trip,45/8455
+"Apr 29, 2026 3:30 PM",Walnut St & 15th St,$0.00,Bus,Transfer,9/3854
+"Apr 29, 2026 3:10 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 29, 2026 8:03 AM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/8605
+"Apr 28, 2026 6:40 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 28, 2026 3:54 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 26, 2026 1:20 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 26, 2026 10:58 AM",Broad St & S Penn Square,$0.00,Bus,Transfer,4/3450
+"Apr 26, 2026 10:28 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 24, 2026 9:15 AM",11th St & Arch St,$0.00,Bus,Transfer,45/8464
+"Apr 24, 2026 8:02 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 23, 2026 9:06 PM",11th St & South St,$0.00,Bus,Single Trip,45/3560
+"Apr 23, 2026 5:16 PM",Passyunk Av & Dickinson St,$0.00,Bus,Single Trip,2345/3096
+"Apr 23, 2026 9:53 AM",11th St & Walnut St,$0.00,Bus,Single Trip,45/3430
+"Apr 23, 2026 7:37 AM",Snyder,$0.00,Subway,Single Trip,B1/-
+"Apr 22, 2026 6:34 PM",11th St & Walnut St,$0.00,Bus,Transfer,45/8440
+"Apr 22, 2026 6:07 PM",2nd St,$0.00,Subway,Transfer,L1/-
+"Apr 22, 2026 4:56 PM",Tasker St & Broad St,$0.00,Bus,Single Trip,29/3440
+"Apr 20, 2026 7:55 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 20, 2026 5:43 PM",11th St & Chestnut St,$0.00,Bus,Transfer,45/8463
+"Apr 20, 2026 5:26 PM",Passyunk Av & Dickinson St,$0.00,Bus,Single Trip,999/3118
+"Apr 20, 2026 12:10 PM",15th St/City Hall,$0.00,Subway,Transfer,L1/-
+"Apr 20, 2026 11:30 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 19, 2026 7:20 PM",19th St & Wolf St,$0.00,Bus,Single Trip,17/7483
+"Apr 19, 2026 2:32 PM",Broad-Spring Garden,$0.00,Subway,Single Trip,B1/-
+"Apr 19, 2026 12:36 PM",Snyder,$0.00,Subway,Transfer,B1/-
+"Apr 19, 2026 11:04 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 18, 2026 10:53 PM",Walnut-Locust,$0.00,Subway,Transfer,B1/-
+"Apr 18, 2026 9:08 PM",NRG Station,$0.00,Subway,Single Trip,B1/-
+"Apr 18, 2026 6:24 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 18, 2026 4:52 PM",Walnut-Locust,$0.00,Subway,Transfer,B1/-
+"Apr 18, 2026 3:52 PM",Walnut St & 12th St,$0.00,Bus,Transfer,9/3427
+"Apr 18, 2026 3:34 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 17, 2026 8:44 AM",Ellsworth-Federal,$0.00,Subway,Transfer,B1/-
+"Apr 17, 2026 8:11 AM",Broad St & Reed St,$0.00,Bus,Single Trip,999/3525
+"Apr 16, 2026 5:11 PM",11th St & Chestnut St,$0.00,Bus,Transfer,45/8544
+"Apr 16, 2026 4:30 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 16, 2026 8:57 AM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/8600
+"Apr 15, 2026 6:43 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 15, 2026 11:43 AM",11th St & Chestnut St,$0.00,Bus,Single Trip,45/3093
+"Apr 15, 2026 10:01 AM",Walnut St & Broad St - MBNS,$0.00,Bus,Transfer,21/3641
+"Apr 15, 2026 9:41 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 13, 2026 5:35 PM",Snyder,$0.00,Subway,Single Trip,B1/-
+"Apr 13, 2026 4:07 PM",W Rittenhouse Square & Locust St,$0.00,Bus,Transfer,17/7469
+"Apr 13, 2026 3:29 PM",Market St & 12th St,$0.00,Bus,Single Trip,17/7483
+"Apr 13, 2026 2:50 PM",15th St/City Hall,$0.00,Subway,Transfer,L1/-
+"Apr 13, 2026 1:12 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 13, 2026 8:23 AM",Snyder,$0.00,Subway,Single Trip,B1/-
+"Apr 12, 2026 5:40 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 12, 2026 2:15 PM",Broad St & Walnut St,$0.00,Bus,Transfer,4/3234
+"Apr 12, 2026 12:37 PM",Walnut St & 15th St,$0.00,Bus,Single Trip,21/3030
+"Apr 12, 2026 10:21 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 11, 2026 5:40 PM",11th St & Walnut St,$0.00,Bus,Transfer,45/3564
+"Apr 11, 2026 4:37 PM",2nd St,$0.00,Subway,Single Trip,L1/-
+"Apr 11, 2026 2:27 PM",Snyder,$0.00,Subway,Single Trip,B1/-
+"Apr 10, 2026 8:42 PM",NRG Station,$0.00,Subway,Single Trip,B1/-
+"Apr 10, 2026 5:52 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 10, 2026 4:41 PM",11th St & Walnut St,$0.00,Bus,Transfer,45/3446
+"Apr 10, 2026 3:39 PM",Tasker St & Broad St,$0.00,Bus,Single Trip,29/3450
+"Apr 7, 2026 6:57 PM",Walnut-Locust,$0.00,Subway,Single Trip,B1/-
+"Apr 7, 2026 5:58 PM",2nd St,$0.00,Subway,Transfer,L1/-
+"Apr 7, 2026 4:57 PM",Tasker St & 13th St,$0.00,Bus,Single Trip,29/3446
+"Apr 6, 2026 6:10 PM",Snyder,$0.00,Subway,Single Trip,B1/-
+"Apr 6, 2026 1:52 PM",19th St & Dickinson St,$0.00,Bus,Single Trip,17/7481
+"Apr 6, 2026 11:35 AM",11th St & Arch St,$0.00,Bus,Transfer,45/3565
+"Apr 6, 2026 10:17 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 5, 2026 11:35 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 4, 2026 5:15 PM",W Rittenhouse Square & Locust St,$0.00,Bus,Single Trip,999/7476
+"Apr 4, 2026 2:11 PM",Ellsworth-Federal,$0.00,Subway,Transfer,B1/-
+"Apr 4, 2026 1:16 PM",Fairmount,$0.00,Subway,Transfer,B1/-
+"Apr 4, 2026 12:47 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Apr 3, 2026 2:37 PM",W Rittenhouse Square & Locust St,$0.00,Bus,Transfer,17/7466
+"Apr 3, 2026 2:14 PM",Market St & 13th St,$0.00,Bus,Transfer,17/7477
+"Apr 3, 2026 1:43 PM",Spring Garden,$0.00,Subway,Single Trip,L1/-
+"Apr 1, 2026 10:33 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 31, 2026 9:16 PM",NRG Station,$0.00,Subway,Single Trip,B1/-
+"Mar 31, 2026 5:49 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 31, 2026 2:34 PM",11th St & Chestnut St,$0.00,Bus,Single Trip,45/3117
+"Mar 31, 2026 11:08 AM",11th St & Walnut St,$0.00,Bus,Single Trip,45/3591
+"Mar 31, 2026 10:12 AM",JFK Blvd & 15th St,$0.00,Bus,Transfer,38/3024
+"Mar 31, 2026 8:16 AM",Passyunk Av & Dickinson St,$0.00,Bus,Single Trip,45/8464
+"Mar 30, 2026 8:05 PM",NRG Station,$0.00,Subway,Single Trip,B1/-
+"Mar 30, 2026 5:17 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 29, 2026 5:56 PM",Broad St & Dickinson St,$0.00,Bus,Transfer,4/3579
+"Mar 29, 2026 5:19 PM",15th St/City Hall,$0.00,Subway,Single Trip,L1/-
+"Mar 29, 2026 4:10 PM",Tasker-Morris,$0.00,Subway,Transfer,B1/-
+"Mar 29, 2026 2:32 PM",Walnut-Locust,$0.00,Subway,Single Trip,B1/-
+"Mar 29, 2026 11:22 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 28, 2026 5:26 PM",NRG Station,$0.00,Subway,Single Trip,B1/-
+"Mar 28, 2026 3:06 PM",Tasker-Morris,$0.00,Subway,Transfer,B1/-
+"Mar 28, 2026 1:12 PM",Snyder,$0.00,Subway,Single Trip,B1/-
+"Mar 27, 2026 5:34 PM",Snyder,$0.00,Subway,Transfer,B1/-
+"Mar 27, 2026 4:35 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 26, 2026 2:19 PM",W Rittenhouse Square & Locust St,$0.00,Bus,Transfer,17/7466
+"Mar 26, 2026 12:27 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 25, 2026 5:51 PM",Walnut-Locust,$0.00,Subway,Transfer,B1/-
+"Mar 25, 2026 5:44 PM",Walnut St & 7th St,$0.00,Bus,Transfer,21/3405
+"Mar 25, 2026 5:44 PM",Walnut St & 7th St,$0.00,Bus,Single Trip,21/3405
+"Mar 25, 2026 4:02 PM",Tasker St & 13th St,$0.00,Bus,Single Trip,29/3561
+"Mar 25, 2026 5:44 PM",Walnut St & 7th St,$0.00,Bus,Single Trip,21/3405
+"Mar 24, 2026 7:44 PM",NRG Station,$0.00,Subway,Transfer,B1/-
+"Mar 24, 2026 5:52 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 24, 2026 4:15 PM",11th St & Walnut St,$0.00,Bus,Transfer,45/3526
+"Mar 24, 2026 3:22 PM",Passyunk Av & Dickinson St,$0.00,Bus,Single Trip,45/3388
+"Mar 23, 2026 8:20 AM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/3243
+"Mar 22, 2026 12:10 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 21, 2026 6:02 PM",Walnut-Locust,$0.00,Subway,Single Trip,B1/-
+"Mar 21, 2026 7:30 AM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/8550
+"Mar 20, 2026 6:13 PM",Oregon,$0.00,Subway,Transfer,B1/-
+"Mar 20, 2026 5:33 PM",16th St & Diamond St,$0.00,Bus,Single Trip,2/8557
+"Mar 19, 2026 9:16 AM",15th/City Hall,$0.00,Subway,Transfer,B1/-
+"Mar 19, 2026 8:27 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 18, 2026 4:18 PM",Broad St & Dickinson St,$0.00,Bus,Single Trip,999/8603
+"Mar 17, 2026 8:04 PM",Walnut-Locust,$0.00,Subway,Single Trip,B1/-
+"Mar 17, 2026 5:55 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 16, 2026 7:41 AM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/3087
+"Mar 15, 2026 9:25 PM",Lombard-South,$0.00,Subway,Single Trip,B1/-
+"Mar 15, 2026 6:47 PM",Broad St & Snyder Av,$0.00,Bus,Single Trip,999/8444
+"Mar 15, 2026 1:48 PM",Lombard-South,$0.00,Subway,Single Trip,B1/-
+"Mar 15, 2026 10:06 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 14, 2026 9:03 PM",Snyder,$0.00,Subway,Single Trip,B1/-
+"Mar 14, 2026 3:32 PM",JFK Blvd & 15th St,$0.00,Bus,Transfer,17/7477
+"Mar 14, 2026 3:04 PM",Spring Garden,$0.00,Subway,Single Trip,L1/-
+"Mar 14, 2026 12:06 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 13, 2026 6:01 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 12, 2026 7:32 AM",16th St & Carpenter St,$0.00,Bus,Single Trip,2/8510
+"Mar 11, 2026 12:11 PM",19th St & Washington Av,$0.00,Bus,Single Trip,17/7483
+"Mar 11, 2026 9:15 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 10, 2026 5:44 PM",Walnut-Locust,$0.00,Subway,Transfer,B1/-
+"Mar 10, 2026 4:30 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 9, 2026 5:46 PM",Market St & 8th St,$0.00,Bus,Transfer,17/7480
+"Mar 9, 2026 4:28 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 8, 2026 3:05 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 8, 2026 10:57 AM",15th St/City Hall,$0.00,Subway,Transfer,L1/-
+"Mar 8, 2026 9:53 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 7, 2026 4:52 PM",19th St & Passyunk Av,$0.00,Bus,Single Trip,17/7475
+"Mar 7, 2026 12:38 PM",Broad St & Dickinson St,$0.00,Bus,Transfer,4/3103
+"Mar 7, 2026 11:39 AM",11th St & Walnut St,$0.00,Bus,Single Trip,45/3538
+"Mar 6, 2026 8:55 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 6, 2026 11:23 AM",Walnut-Locust,$0.00,Subway,Transfer,B1/-
+"Mar 6, 2026 9:26 AM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 4, 2026 8:17 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Mar 4, 2026 9:14 AM",Walnut St & 12th St,$0.00,Bus,Transfer,999/3095
+"Mar 4, 2026 9:12 AM",11th St & Girard Av,$0.00,Bus,Single Trip,2345/3815
+"Mar 2, 2026 10:11 PM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/3809
+"Mar 2, 2026 4:41 PM",Tasker-Morris,$0.00,Subway,Single Trip,B1/-
+"Feb 28, 2026 3:55 PM",Broad St & Dickinson St,$0.00,Bus,Single Trip,4/3528
+"Feb 24, 2026 8:11 AM",Snyder,$0.00,Subway,Single Trip,BSL/-
+"Feb 23, 2026 6:01 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Feb 23, 2026 2:05 PM",Walnut-Locust,$0.00,Subway,Single Trip,B1/-
+"Feb 23, 2026 11:42 AM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Feb 22, 2026 8:03 AM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Feb 21, 2026 10:42 AM",Walnut-Locust,$0.00,Subway,Transfer,B1/-
+"Feb 21, 2026 9:35 AM",16th St & Jackson St,$0.00,Bus,Single Trip,2/8545
+"Feb 20, 2026 3:59 PM",Snyder,$0.00,Subway,Transfer,BSL/-
+"Feb 20, 2026 3:18 PM",Philadelphia Airport Terminal A,$0.00,Bus,Single Trip,37/3577
+"Feb 19, 2026 7:40 AM",16th St & Jackson St,$0.00,Bus,Single Trip,2/3115
+"Feb 18, 2026 4:31 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Feb 18, 2026 12:02 PM",Front-Girard,$0.00,Subway,Transfer,MFL/-
+"Feb 18, 2026 10:13 AM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Feb 16, 2026 12:53 PM",15th/City Hall,$0.00,Subway,Transfer,BSL/-
+"Feb 16, 2026 11:31 AM",Passyunk Av & Dickinson St,$0.00,Bus,Single Trip,45/3561
+"Feb 15, 2026 11:21 AM",Snyder,$0.00,Subway,Single Trip,BSL/-
+"Feb 14, 2026 7:22 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Feb 14, 2026 6:58 PM",Broad St & Snyder Av,$0.00,Bus,Transfer,4/8444
+"Feb 14, 2026 6:43 PM",Snyder,$0.00,Subway,Transfer,BSL/-
+"Feb 14, 2026 5:40 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Feb 13, 2026 7:42 AM",Snyder,$0.00,Subway,Single Trip,BSL/-
+"Feb 12, 2026 6:28 PM",Snyder,$0.00,Subway,Single Trip,BSL/-
+"Feb 12, 2026 9:51 AM",11th St & Chestnut St,$0.00,Bus,Single Trip,999/3108
+"Feb 12, 2026 9:16 AM",Passyunk Av & Dickinson St,$0.00,Bus,Single Trip,999/3108
+"Feb 10, 2026 3:48 PM",Broad St & Dickinson St,$0.00,Bus,Transfer,4/3318
+"Feb 10, 2026 3:19 PM",Snyder,$0.00,Subway,Transfer,BSL/-
+"Feb 10, 2026 2:42 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Feb 8, 2026 10:38 PM",Walnut-Locust,$0.00,Subway,Single Trip,BSL/-
+"Feb 8, 2026 5:19 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Feb 8, 2026 12:20 PM",Snyder,$0.00,Subway,Single Trip,BSL/-
+"Feb 7, 2026 6:14 PM",Broad St & Dickinson St,$0.00,Bus,Single Trip,702/8614
+"Feb 7, 2026 11:50 AM",11th St & Washington Av,$0.00,Bus,Single Trip,45/3112
+"Feb 5, 2026 8:59 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Feb 4, 2026 7:44 AM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/8556
+"Feb 3, 2026 8:09 PM",16th St & Dickinson St,$0.00,Bus,Single Trip,2/3780
+"Feb 1, 2026 10:09 AM",Walnut-Locust,$0.00,Subway,Single Trip,BSL/-
+"Jan 31, 2026 6:03 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 30, 2026 8:37 PM",Walnut-Locust,$0.00,Subway,Single Trip,BSL/-
+"Jan 30, 2026 3:40 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 28, 2026 6:52 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 28, 2026 4:43 PM",Snyder,$0.00,Subway,Transfer,BSL/-
+"Jan 28, 2026 3:40 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 27, 2026 8:18 PM",15th St/City Hall,$0.00,Subway,Single Trip,MFL/-
+"Jan 27, 2026 6:04 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 27, 2026 4:48 PM",11th St & Washington Av,$0.00,Bus,Transfer,45/3553
+"Jan 27, 2026 4:02 PM",Pier 70 WalMart & Home Depot,$0.00,Bus,Single Trip,999/3534
+"Jan 27, 2026 3:23 PM",Broad St & Snyder Av,$0.00,Bus,Transfer,999/8559
+"Jan 27, 2026 3:07 PM",Snyder,$0.00,Subway,Transfer,BSL/-
+"Jan 27, 2026 2:55 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 25, 2026 7:57 AM",Tasker-Morris,$0.00,Subway,Transfer,BSL/-
+"Jan 25, 2026 7:04 AM",Snyder,$0.00,Subway,Single Trip,BSL/-
+"Jan 24, 2026 11:18 AM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 22, 2026 4:44 PM",Broad St & S Penn Square,$0.00,Bus,Single Trip,4/3334
+"Jan 22, 2026 4:22 PM",Market St & 10th St,$0.00,Bus,Transfer,17/7481
+"Jan 22, 2026 3:56 PM",Walnut St & 16th St,$0.00,Bus,Transfer,42/3001
+"Jan 22, 2026 3:29 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 21, 2026 9:51 PM",Lombard-South,$0.00,Subway,Single Trip,BSL/-
+"Jan 21, 2026 4:45 PM",16th St & Snyder Av,$0.00,Bus,Transfer,2/3247
+"Jan 21, 2026 3:08 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 21, 2026 10:22 AM",Walnut St & 12th St,$0.00,Bus,Transfer,999/3119
+"Jan 21, 2026 8:49 AM",Passyunk Av & 10th St,$0.00,Bus,Single Trip,999/8440
+"Jan 20, 2026 8:56 AM",16th St & Jackson St,$0.00,Bus,Single Trip,2/3326
+"Jan 19, 2026 5:05 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 17, 2026 11:57 PM",Lombard-South,$0.00,Subway,Transfer,BSL/-
+"Jan 17, 2026 10:15 PM",16th St & Dickinson St,$0.00,Bus,Single Trip,999/3576
+"Jan 16, 2026 7:20 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 14, 2026 10:03 AM",11th St & Pine St,$0.00,Bus,Transfer,45/3589
+"Jan 14, 2026 8:04 AM",Passyunk Av & 10th St,$0.00,Bus,Single Trip,45/3085
+"Jan 13, 2026 8:48 AM",16th St & Shunk St,$0.00,Bus,Single Trip,2/8627
+"Jan 12, 2026 9:46 PM",NRG Station,$0.00,Subway,Single Trip,BSL/-
+"Jan 12, 2026 6:13 PM",Snyder,$0.00,Subway,Single Trip,BSL/-
+"Jan 11, 2026 8:01 PM",Walnut-Locust,$0.00,Subway,Single Trip,BSL/-
+"Jan 11, 2026 3:58 PM",19th St & Snyder Av,$0.00,Bus,Single Trip,17/7482
+"Jan 11, 2026 12:51 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 10, 2026 5:19 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 10, 2026 10:45 AM",Snyder,$0.00,Subway,Single Trip,BSL/-
+"Jan 9, 2026 4:04 PM",16th St & Dickinson St,$0.00,Bus,Single Trip,2/8540
+"Jan 9, 2026 9:50 AM",11th St & Chestnut St,$0.00,Bus,Single Trip,2345/8461
+"Jan 8, 2026 3:09 PM",7th St & Chestnut St,$0.00,Bus,Transfer,47/3558
+"Jan 8, 2026 1:22 PM",Passyunk Av & Dickinson St,$0.00,Bus,Single Trip,45/3550
+"Jan 8, 2026 7:38 AM",16th St & Snyder Av,$0.00,Bus,Single Trip,2/8516
+"Jan 7, 2026 8:54 AM",16th St & Snyder Av,$0.00,Bus,Single Trip,999/3776
+"Jan 6, 2026 10:06 PM",NRG Station,$0.00,Subway,Single Trip,BSL/-
+"Jan 6, 2026 5:46 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
+"Jan 4, 2026 4:49 PM",19th St & Wolf St,$0.00,Bus,Single Trip,17/7474
+"Jan 3, 2026 3:47 PM",Tasker-Morris,$0.00,Subway,Single Trip,BSL/-
